@@ -51,10 +51,6 @@ boundary:
 | **Inventory Keeper** | Medicine catalog, incoming/outgoing stock, batches, stock cards |
 | **MedRep** | Own client coverage logs and pre/post call logs, own PDF exports |
 
-> This project was a **refurbishment**: an existing working application was taken
-> as a baseline, then re-architected for security, data integrity, and a
-> consistent design system, and deployed to the client's hosting.
-
 ---
 
 ## ✨ Key Features
