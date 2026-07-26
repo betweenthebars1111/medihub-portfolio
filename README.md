@@ -1,16 +1,18 @@
 <!--
-  Showcase README for MAConglomo Hub.
+  Showcase README for Medihub.
   This repo is documentation only — the application source code is private.
+  "Medihub" is a neutral product identity used for this public write-up; the
+  deployed instance carries the client's own name and branding.
 -->
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
-    <img src="assets/logo.png" alt="MA Conglomo Med Corp" width="260">
+    <img src="assets/logo.png" alt="Medihub" width="300">
   </picture>
 </p>
 
-<h1 align="center">MAConglomo Hub</h1>
+<h1 align="center">Medihub</h1>
 
 <p align="center">
   <em>An internal management system for a medical distribution company —<br>
@@ -22,7 +24,7 @@
   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-8.x-4479A1?logo=mysql&logoColor=white">
   <img alt="PDO" src="https://img.shields.io/badge/PDO-prepared%20statements-4479A1">
   <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white">
-  <img alt="dompdf" src="https://img.shields.io/badge/PDF-dompdf-b3001b">
+  <img alt="dompdf" src="https://img.shields.io/badge/PDF-dompdf-143f73">
   <img alt="No framework" src="https://img.shields.io/badge/framework-none-6c757d">
   <img alt="Status" src="https://img.shields.io/badge/status-live-1a7f37">
 </p>
@@ -31,7 +33,7 @@
 
 ## 📖 Overview
 
-**MAConglomo Hub** is the internal back-office system for a medical distribution
+**Medihub** is the internal back-office system for a medical distribution
 company. It replaces spreadsheet-and-paper workflows with one role-aware web app
 covering the two halves of the business: what is **in the warehouse**, and what
 the **field team** is doing.
@@ -171,11 +173,19 @@ Every page renders through one shared layout shell.
 
 | Token | Value |
 |---|---|
-| Primary (brand red) | `#b3001b` |
+| Primary (brand navy) | `#143f73` |
+| Success / Warning / Danger | `#16a34a` / `#d97706` / `#dc2626` |
+| Info | `#0e7490` |
 | Surface / background | `#ffffff` / light neutral |
 | Type stack | `Inter`, falling back to the OS system font |
 | Spacing scale | 4px base, `--space-1` … `--space-8` |
 | Radii | `6px` / `10px` / `14px` |
+
+Because the brand hue is navy, it cannot double as the error color, so **danger
+owns its own red** and destructive controls stay unmistakably red no matter what
+the brand does. **Info sits on teal rather than blue** for the same reason — a
+blue "info" next to a navy brand reads as the same signal twice. Status is never
+carried by color alone; every pill and badge carries a text label.
 
 Intentionally **light-theme only**, flat, and corporate — the visual language of
 an internal tool that people use all day, not a marketing site.
@@ -184,8 +194,14 @@ an internal tool that people use all day, not a marketing site.
 
 ## 🚀 Status
 
-Deployed and in production on the client's shared hosting. The live instance is
-an internal system behind a login wall and is not linked publicly.
+Deployed and live on the client's shared hosting. The live instance is an
+internal system behind a login wall and is not linked publicly.
+
+**A note on the name.** *Medihub* is a neutral product identity created for this
+public write-up — the name, logo, and navy palette above exist so the client's
+own company name and branding stay off a public portfolio page. Everything else
+you see is the real system: the same screens, the same data model, the same
+code. The deployed instance runs under the client's identity.
 
 ---
 
