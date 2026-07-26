@@ -164,7 +164,7 @@ boundary:
 
 ---
 
-## 🎨 Design System
+## Design System
 
 A single stylesheet is the source of truth, built entirely from CSS custom
 properties — colors, spacing, type scale, radii, and shadows are all tokens, and
@@ -192,7 +192,7 @@ an internal tool that people use all day, not a marketing site.
 
 ---
 
-## 🚀 Status
+## Status
 
 Deployed and live on the client's shared hosting. The live instance is an
 internal system behind a login wall and is not linked publicly.
@@ -205,13 +205,13 @@ code. The deployed instance runs under the client's identity.
 
 ---
 
-## 👤 Author
+## Author
 
-**Jimwell Julian J. Cruz** — design, development, hardening, and deployment.
+**Jimwell J. Cruz** — design, development, hardening, and deployment.
 
 ---
 
-## 📄 License & Usage
+## License & Usage
 
 **© 2026 Jimwell Julian J. Cruz. All Rights Reserved.**
 
