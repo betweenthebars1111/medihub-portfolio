@@ -24,7 +24,7 @@
   <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white">
   <img alt="dompdf" src="https://img.shields.io/badge/PDF-dompdf-b3001b">
   <img alt="No framework" src="https://img.shields.io/badge/framework-none-6c757d">
-  <img alt="Status" src="https://img.shields.io/badge/status-in%20production-1a7f37">
+  <img alt="Status" src="https://img.shields.io/badge/status-live-1a7f37">
 </p>
 
 ---
