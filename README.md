@@ -31,7 +31,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 **Medihub** is the internal back-office system for a medical distribution
 company. It replaces spreadsheet-and-paper workflows with one role-aware web app
@@ -55,7 +55,7 @@ boundary:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### Inventory & stock control
 - **Batch-level tracking** — every medicine is stocked as dated batches with their
@@ -93,7 +93,7 @@ boundary:
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 | Sign-in | Admin Dashboard |
 |:---:|:---:|
@@ -113,7 +113,7 @@ boundary:
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -161,34 +161,6 @@ boundary:
   filenames, and script execution denied inside the upload directory.
 - **PDF generation** runs with remote fetching disabled and images embedded as
   base64, so a document can never be used to pull a remote resource.
-
----
-
-## Design System
-
-A single stylesheet is the source of truth, built entirely from CSS custom
-properties — colors, spacing, type scale, radii, and shadows are all tokens, and
-pages are assembled from a fixed component vocabulary rather than ad-hoc CSS.
-Every page renders through one shared layout shell.
-
-| Token | Value |
-|---|---|
-| Primary (brand navy) | `#143f73` |
-| Success / Warning / Danger | `#16a34a` / `#d97706` / `#dc2626` |
-| Info | `#0e7490` |
-| Surface / background | `#ffffff` / light neutral |
-| Type stack | `Inter`, falling back to the OS system font |
-| Spacing scale | 4px base, `--space-1` … `--space-8` |
-| Radii | `6px` / `10px` / `14px` |
-
-Because the brand hue is navy, it cannot double as the error color, so **danger
-owns its own red** and destructive controls stay unmistakably red no matter what
-the brand does. **Info sits on teal rather than blue** for the same reason — a
-blue "info" next to a navy brand reads as the same signal twice. Status is never
-carried by color alone; every pill and badge carries a text label.
-
-Intentionally **light-theme only**, flat, and corporate — the visual language of
-an internal tool that people use all day, not a marketing site.
 
 ---
 
