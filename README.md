@@ -205,5 +205,3 @@ branding, and descriptions here are provided for portfolio and informational
 purposes only and may not be reused without permission.
 
 ---
-
-<p align="center"><sub>MA Conglomo Med Corp · Philippines</sub></p>
