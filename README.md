@@ -1,8 +1,6 @@
 <!--
   Showcase README for Medihub.
   This repo is documentation only — the application source code is private.
-  "Medihub" is a neutral product identity used for this public write-up; the
-  deployed instance carries the client's own name and branding.
 -->
 
 <p align="center">
@@ -168,12 +166,6 @@ boundary:
 
 Deployed and live on the client's shared hosting. The live instance is an
 internal system behind a login wall and is not linked publicly.
-
-**A note on the name.** *Medihub* is a neutral product identity created for this
-public write-up — the name, logo, and navy palette above exist so the client's
-own company name and branding stay off a public portfolio page. Everything else
-you see is the real system: the same screens, the same data model, the same
-code. The deployed instance runs under the client's identity.
 
 ---
 
